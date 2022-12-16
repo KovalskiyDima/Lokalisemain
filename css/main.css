@@ -1,0 +1,644 @@
+@font-face {
+    font-family: 'graphik_lcgregular';
+    src: url(../fonts/graphiklcg-regular-webfont.eot);
+    src: url(../fonts/graphiklcg-regular-webfont.eot) format('embedded-opentype'),
+         url(../fonts/graphiklcg-regular-webfont.woff2) format('woff2'),
+         url(../fonts/graphiklcg-regular-webfont.woff) format('woff'),
+         url(../fonts/graphiklcg-regular-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'graphik_semibolt';
+    src: url(../fonts/Graphik-Semibold.eot);
+    src: url(../fonts/Graphik-Semibold.eot) format('embedded-opentype'),
+         url(../fonts/Graphik-Semibold.woff2) format('woff2'),
+         url(../fonts/Graphik-Semibold.woff) format('woff'),
+         url(../fonts/Graphik-Semibold.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    font-family:'graphik_lcgregular';
+}
+img{
+    max-width: 300px;
+}
+h1{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    font-family: 'graphik_semibolt';
+    }
+h2{
+    font-weight: 600;
+    Font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    font-family: 'graphik_semibolt';
+}
+h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    font-family: 'graphik_semibolt';
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    padding-bottom: 21px;
+    font-family: 'graphik_semibolt';
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px
+}
+a{
+    color: #000000;
+    font-size: 14px;
+}
+img{
+    font-size: 100%;
+}
+.container{
+    
+    text-align: center;
+    align-items: center;
+}
+.padding-75px{
+    padding: 0px 20px;
+}
+.padding_b{
+    padding-bottom: 30px;
+}
+.header_img{
+    margin-top: 30px;
+    height: 28px;
+    width: 130px;
+}
+.header_links{
+    line-height: 20px;
+    text-align: center;
+}
+.header_buttons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.btn_log_in{
+    padding: 0px 36px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    Font-size: 16px;
+    min-height: 45px;
+    min-width: 140px;
+    background-color: #FFFFFF;
+}
+button{
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.btn_try_it_free{
+    color:#FFFFFF;
+    background-color: #FF6336;
+    min-width: 120px;
+    Font-size: 16px;
+    min-height: 45px;
+    min-width: 140px;
+    padding: 0px 29px;
+    border: 0;
+}
+.btn_demo{
+    padding: 0px 29px;
+    min-height: 60px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.accelerate, .ensure_quality, .less_work, .what_can_you, .boost, .message, .made_easy, .products, .market, .clients{
+    margin-top: 30px;
+}
+.accelerate .btn_try_it_free{
+    min-height: 60px;
+    margin-right: 10px;
+}
+.accelerate_text p {
+padding-top: 51px;
+padding-bottom: 50px;
+}
+.accelerate_btns{
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.clients{
+    background-color: #FF9C7D;
+}
+.clients_h{
+    max-width: 320px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+.localization_procces{
+    padding-top: 90px;
+}
+.link_start_now{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.market{
+    align-items: center;
+}
+.market_text{
+    align-items: center;
+    padding-top: 30px;
+}
+.ensure_quality_text{
+    margin-right: 0px;
+}
+.less_work_text p{
+    max-width: 520px;
+}
+.what_can_you{
+    background-color: #FFF8E4;
+}
+.what_can_you h2{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.what_can_you p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.what_can_you img{
+    height: 120px;
+    width: 160px;
+    margin:0px 70px 25px 70px
+}
+.what_can_you h3{
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.boost h2{
+    text-align: center;
+    margin-bottom: 75px;
+}
+.boost h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.boost img{
+    height: 120px;
+    width: 160px;
+    margin:0px 70px 25px 70px
+}
+.boost p{
+    margin-bottom: 25px;
+}
+.boost a{
+    text-decoration: underline;
+}
+.message{
+    background-color: #C9E8F2;
+}
+.clients_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 15px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.edvard_cooper_img{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.most_loved{
+   background: #DABC98;
+   text-align: center;
+   padding-top: 30px;
+}
+.most_loved h3{
+    min-height: 154px;
+    max-width: 585px;
+    padding: 26px 26px 26px 67px;
+}
+.second_side{
+    min-height: 200px;
+}
+.second_column{
+    padding-bottom: 30px;
+}
+.fix_pic{
+    height: 37px;
+    width: 37px;
+}
+.pigeon h1{
+    max-width: 440px;
+    text-align: center;
+}
+.pigeon{
+    padding-top: 30px;
+}
+.pigeon p{
+    max-width: 539px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.integrations{
+    margin-top: 32px;
+    padding: 0px 25px;
+    color: white;
+    min-height: 60px;
+    background-color: #FF6336;
+    border: 0px;
+}
+.made_easy{
+    background-color: #FF9C7D;
+}
+.made_easy h1{
+    padding-top: 30px;
+    padding-bottom: 29px;
+    text-align: center;
+    max-width: 784px;
+}
+.made_easy button{
+    margin-top: 54px;
+    margin-bottom: 161px;
+    color: white;
+    background-color: black;    
+    line-height: 60px;
+    min-width: 160px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+.bike h3{
+    padding-top: 30px;
+    padding-bottom: 28px;
+}
+.bike img{
+    padding-bottom: 15px;
+}
+.read_more{
+    margin-bottom: 30px;
+}
+.Case_Studies{
+    padding-left: 20px;
+    border-bottom: 1px solid black;
+}
+.products_link{
+    padding-bottom: 20px;
+}
+.footer img{
+    padding: 30px 15px 30px 0px;
+}
+.footer_text{
+    max-width: 301px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.footer_right p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+@media screen and (min-width:768px){
+    .header{
+        border-bottom: 1px solid #CCCCCC;
+    }
+    .header_img{
+        margin-top: 0px;
+    }
+    a{
+        text-decoration: none;
+    }
+    img{
+        max-width: 100%;
+    }
+    .container{
+        max-width: 1023px;
+    }
+    .d-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header_links nav ul{
+        display: flex;
+        padding-top: 39px;
+        padding-bottom: 36px;
+        flex-wrap: wrap;
+    }
+    .header_links{
+        line-height: 20px;
+        text-align: unset;
+    }
+    .header_buttons{
+        display: flex;
+        padding-top: 0px;
+    }
+    .links li{
+        padding-left: 15px;
+        height: 20px;
+    }
+    .padding-75px{
+        padding: 0 40px;
+    }
+    .btn_log_in{
+        margin-right: 10px;
+    }
+    h1{
+        font-size: 50px;
+        line-height: 55px;
+        text-align: left;
+    }
+    h2{
+        Font-size: 40px;
+        line-height: 45px;
+        text-align: left;
+    }
+    h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    h4{
+        font-size: 20px;
+        line-height: 25px;
+        text-align: left;
+    }
+    p{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+    }
+    .accelerate, .ensure_quality, .less_work, .what_can_you,.market, .boost,.clients, .message, .made_easy{
+        margin-top: 50px;
+    }
+    .accelerate_btns{
+        display: block;
+    }
+    .accelerate_text p {
+        max-width: 471px;
+    }
+    .accelerate_text, .less_work_text, .ensure_quality_text, .localization_procces_text, .market_text{
+        text-align: left;
+    }
+    .container.boost{
+        text-align: unset;
+    }
+    .clients{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .clients_h{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        max-width: 520px;
+    }
+    .localization_procces_text{
+        max-width: 493px;
+    }
+    .localization_procces_text h2{
+        text-align: left;
+    }
+    .market_text h2{
+        padding-right: 216px;
+        max-width: 379px;
+    }
+    .market_text p{
+        max-width: 450px;
+        padding-right: 145px;
+        Font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    .market_text{
+        padding-top: 0px;
+        margin-left: 138px;
+    }
+    .ensure_quality_text{
+        margin-right: 138px;
+    }
+    .ensure_quality_text p{
+        max-width: 520px;
+    }
+    .pigeon{
+        padding-top: 50px;
+    }
+    .what_can_you h2{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    .what_can_you p{
+        max-width: 300px;
+        margin-bottom: 75px;
+    }
+    .apps{
+        min-height: 430px;
+    }
+    .boost p{
+        max-width: 300px;
+        min-height: 214px;
+    }
+    .most_loved h3{
+        border-right: 1px solid black;
+        padding: 26px 124px 26px 67px;
+    }
+    .most_loved{
+        text-align: unset;
+        padding-top: 0px;
+     }
+    .first_column{
+        align-items: flex-start;
+    }
+    .second_column{
+        align-items: flex-start;
+        padding-left: 70px;
+        padding-bottom: 0px;
+    }
+    .less_work_img{
+        margin-bottom: 30px;
+        margin-right: 138px;
+    }
+    .edvard_cooper_img{
+        padding: 60px 0px 105px 60px;
+    }
+    .pigeon.column{
+        display:flex;
+    }
+    .column.made_easy{
+        display: flex;
+    }
+    .container.message{
+        text-align: left;
+    }
+    .read_more{
+        margin-bottom: 0px;
+    }
+    .made_easy h1{
+        padding-top: 119px;
+    }
+    .bike{
+        align-items: flex-start;
+        margin-left: 0px;
+    }
+    .bike h3{
+        padding-top: 92px;
+        padding-bottom: 28px;
+    }
+    .bike p{
+        max-width: 290px;
+        text-align: left;
+    }
+    .bike a{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+    }
+    .clients_logo{
+        display: flex;
+        padding-bottom: 104px;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: baseline;
+        flex-direction:row;  
+    }
+    .Case_Studies{
+        padding-left: 0px;
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+    }
+    .column{
+        display: block;
+    }
+    .column.bike{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .container.column{
+        text-align: left;
+    }
+    .products{
+        margin-top: 92px;
+        min-height: 300px;
+        display: flex;
+        align-items: flex-start;
+    }
+    .products_link{
+        padding-bottom: 10px;
+        min-width: 130px;
+    }
+    .footer{
+        padding-top: 52px;
+        padding-bottom: 43px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer img{
+        padding: 0px 15px 0px 0px;
+    }
+}
+@media screen and (min-width:1024px){
+    .container{
+        max-width: 2400px;
+    }
+    .header_links nav ul{
+        flex-wrap:nowrap;
+
+    }
+    .padding-75px{
+        padding: 0 75px;
+    }
+    h1{
+        font-size: 65px;
+        line-height: 70px;
+    }
+    h2{
+        Font-size: 50px;
+        line-height: 60px;
+        text-align: left;
+    }
+    h3{
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+    }
+    h4{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .accelerate_pic{
+        height: 529px;
+        width: 759px;
+    }
+    .accelerate,.clients, .market, .ensure_quality, .less_work, .what_can_you, .message, .made_easy{
+        margin-top: 130px;
+    }
+    .clients_h{
+        padding-top: 100px;
+        padding-bottom: 70px;
+        max-width: 720px;
+    }
+    .clients_logo{
+        justify-content: space-around;
+    }
+    .clients{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .pigeon{
+        padding-top: 130px;
+    }
+    .links li{
+        padding-left: 15px;
+    }
+    .btn_try_it_free{
+        margin-right: 51px;
+    }
+    .what_can_you h2{
+        padding-top: 120px;
+        margin-bottom: 79px;
+    }
+    .Case_Studies{
+        margin-left: 75px;
+        margin-right: 75px;
+        padding-bottom: 100px;
+        justify-content: space-between;
+    }
+    .products_link{
+        padding-bottom: 10px;
+        min-width: 150px;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
